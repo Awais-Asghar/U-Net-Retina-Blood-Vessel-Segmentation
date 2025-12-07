@@ -1,4 +1,9 @@
 # Retina Vessel Segmentation using U-Net
+![Project Status](https://img.shields.io/badge/status-Completed-brightgreen.svg)
+![Platform](https://img.shields.io/badge/platform-Kaggle-pink.svg)
+![Environment](https://img.shields.io/badge/environment-Jupyter%20Notebook-orange.svg)
+![Language](https://img.shields.io/badge/language-Python-blue.svg) 
+![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 
 Project goal is to automatically segment blood vessels from retinal images using a convolutional encoder decoder architecture. Accurate vessel segmentation helps in early diagnosis of diseases such as diabetic retinopathy, glaucoma, hypertension, and cardiovascular disorders. This project focuses on segmenting retinal blood vessels from fundus images using a U Net based deep learning model. The goal is to build a simple, clear, and reproducible pipeline that loads the dataset, pairs images with their masks, trains a U Net, evaluates the model, and visualizes the predicted segmentation maps. The notebook includes complete data preprocessing, model architecture, training loop, loss calculation, visualization of results, and basic performance checks. This is a self driven side project created to improve understanding of image segmentation, medical imaging workflows, and deep learning experiment design. Everything is kept straightforward so the project can be extended later for other datasets or accelerated hardware platforms.
 
